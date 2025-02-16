@@ -1,0 +1,49 @@
+.property-history-container {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.property-history-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.property-list {
+  list-style: none;
+  padding: 0;
+}
+
+.property-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.property-item h3 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.property-item p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.property-images {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.property-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}

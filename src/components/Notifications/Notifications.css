@@ -1,0 +1,77 @@
+/* Styling for the Notification Icon */
+.notification-icon {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+/* Badge for unread notifications */
+.notification-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f00; /* Red color */
+  color: #fff;
+  font-size: 0.8rem;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 18px;
+  padding: 2px 4px;
+}
+
+/* Hover effect for Notification Icon */
+.notification-icon:hover .notification-badge {
+  background-color: #ff6b6b; /* Lighter Red on hover */
+}
+
+/* Notification Container (for the notifications page) */
+.notification-container {
+  background-color: #f7fafc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Notification Item Styling */
+.notification-item {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styling for Notification Text */
+.notification-text {
+  font-size: 1rem;
+  color: #333;
+  max-width: 80%;
+}
+
+/* Styling for Read/Unread Notification Indicators */
+.notification-read {
+  font-size: 0.9rem;
+  color: #999;
+  font-style: italic;
+}
+
+/* Button or link to mark notifications as read */
+.mark-as-read {
+  background-color: #4caf50;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.mark-as-read:hover {
+  background-color: #45a049;
+}
+
